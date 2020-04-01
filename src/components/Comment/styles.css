@@ -1,0 +1,35 @@
+li .comment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10px 5px;
+}
+
+li .comment-container img {
+  margin-right: 5px;
+}
+
+li .comment-container .content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  background-color: #EEE;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+li .comment-container strong {
+  margin-right: 5px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+li .comment-container .content-container p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #3E3E3E;
+  text-align: justify;
+  display: block;
+  padding: 0;
+}
